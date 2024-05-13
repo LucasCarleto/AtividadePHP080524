@@ -3,37 +3,20 @@
 <body>
 
 <?php
-	//Variável que recebe o texto a ser repetido
-	$txt = "texto ";
-
-	//Escrever qual será a palavra repetida, conforme o exemplo
-	echo "○Palavra: $txt<br/>";
-
-	//Deixar a string em maiúsculo, conforme o exemplo
-	$txt = strtoupper($txt);
-
-	//Definir a string que será escrita na tela
-	$str = $txt;
-
-	//Contador para não ficar repetindo infinitamente e travar o sistema
-	$i = 0;
-
-	//Loop para fazer a repetição em "escadinha"
-	while (1)
-	{
-		//Escrever a string e quebrar a linha
-		echo "○$str <br/>";
-
-		//Concatenar a string, repetindo o texto mais uma vez.
-		$str .= $txt;
-
-		//Incrementar o contador
-		$i++;
-
-		//Limitar a repetição para 64 vezes (limite arbitrário)
-		if ($i > 21)
-			break;
-	}
+	echo "<h1>Escolha um dos scripts abaixo:<br/></h1>";
+	echo '<a href="EXERCICIOS/EX01.PHP"><h2>Exercício 01</h2></a>';
+	echo '<a href="EXERCICIOS/EX02.PHP"><h2>Exercício 02</h2></a>';
+	echo '<a href="EXERCICIOS/EX03.PHP"><h2>Exercício 03</h2></a>';
+	echo '<a href="EXERCICIOS/EX04.PHP"><h2>Exercício 04</h2></a>';
+	echo '<a href="EXERCICIOS/EX05.PHP"><h2>Exercício 05</h2></a>';
+	echo '<a href="EXERCICIOS/EX06.PHP"><h2>Exercício 06</h2></a>';
+	echo '<a href="EXERCICIOS/EX07.PHP"><h2>Exercício 07</h2></a>';
+	echo '<a href="EXERCICIOS/EX08.PHP"><h2>Exercício 08</h2></a>';
+	echo '<a href="EXERCICIOS/EX09.PHP"><h2>Exercício 09</h2></a>';
+	echo '<a href="EXERCICIOS/EX10.PHP"><h2>Exercício 10</h2></a>';
+	echo '<a href="EXERCICIOS/EX11.PHP"><h2>Exercício 11</h2></a>';
+	echo '<a href="EXERCICIOS/EX12.PHP"><h2>Exercício 12</h2></a>';
+	//echo "<h2>C:\\xampp\\htdocs\\PHP</h2>";
 ?>
 </body>
 </html>
